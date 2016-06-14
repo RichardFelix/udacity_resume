@@ -1,0 +1,33 @@
+/************************
+    General Scope
+************************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $fontFamily;
+  font-size: 18px;
+}
+
+.padding{
+  padding: 50px 50px;
+}
+
+.bgColor{
+  background-color: #ebf0f6;
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
